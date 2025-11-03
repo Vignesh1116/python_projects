@@ -6,8 +6,8 @@
 # def home():
 #     return "Hello! this is the msin page <h1>HELLO</h1>"
 
-# @app.route("/<namw>")
-# def user(namw):
+# @app.route("/<name>")
+# def user(name):
 #     return f"Hello {name}!"
 
 # @app.route("/admin")
@@ -15,4 +15,4 @@
 #     return redirect(url_for("home"))
 
 # if __name__ == "__main__":
-#     app.run()
+#     app.run() 
